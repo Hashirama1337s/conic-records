@@ -1,0 +1,37 @@
+form e
+t = -1.80080644166005289253120481817  E = 0.984287352337528504989330719377  sqrtE = 0.992112570395884312217013000207
+48 x 2 signed maps preserve F exactly: 96 (96 matrices = 48 projective maps x {+-1})
+orbit 0 seat size 24 new distinct 24 on-X residual 2.6e-58
+orbit 1 seat size 24 new distinct 24 on-X residual 1.5e-58
+orbit 2 seat size 48 new distinct 48 on-X residual 1.8e-58
+orbit 3 seat size 12 new distinct 12 on-X residual 2.9e-58
+orbit 4 seat size 12 new distinct 12 on-X residual 2.6e-58
+orbit 5 seat size 12 new distinct 12 on-X residual 1.7e-58
+orbit 6 seat size 12 new distinct 12 on-X residual 2.1e-58
+orbit 7 seat size 24 new distinct 24 on-X residual 1.1e-58
+orbit 8 seat size 24 new distinct 24 on-X residual 1.8e-58
+orbit 9 seat size 48 new distinct 48 on-X residual 2.4e-58
+orbit 10 seat size 48 new distinct 48 on-X residual 2.0e-58
+orbit 11 seat size 24 new distinct 24 on-X residual 6.0e-58
+orbit 12 seat size 12 new distinct 12 on-X residual 1.8e-58
+orbit 13 seat size 24 new distinct 24 on-X residual 2.8e-58
+orbit 14 seat size 24 new distinct 24 on-X residual 2.3e-58
+orbit 15 seat size 12 new distinct 12 on-X residual 7.9e-59
+orbit 16 seat size 48 new distinct 48 on-X residual 3.0e-58
+orbit 17 seat size 24 new distinct 24 on-X residual 4.3e-58
+orbit 18 seat size 24 new distinct 24 on-X residual 2.6e-58
+orbit 19 seat size 12 new distinct 12 on-X residual 1.0e-58
+orbit 20 seat size 12 new distinct 12 on-X residual 1.5e-58
+orbit 21 seat size 12 new distinct 12 on-X residual 2.4e-58
+orbit 22 seat size 12 new distinct 12 on-X residual 2.7e-58
+orbit 23 seat size 48 new distinct 48 on-X residual 9.5e-59
+orbit 24 seat size 24 new distinct 24 on-X residual 2.8e-58
+orbit 25 seat size 24 new distinct 24 on-X residual 2.4e-58
+orbit 26 seat size 4 new distinct 4 on-X residual 1.7e-58
+orbit 27 seat size 4 new distinct 4 on-X residual 2.6e-58
+orbit 28 seat size 12 new distinct 12 on-X residual 2.3e-58
+orbit 29 seat size 12 new distinct 12 on-X residual 2.2e-58
+TOTAL distinct conics 656  real on X- 656  with real points 656
+max relative residual f - Q*Q2: 5.9764e-58  min |eig| of real dual forms: 0.056927
+X+ (w -> i w): real 56  with real points 36
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap

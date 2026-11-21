@@ -1,0 +1,11 @@
+|O_h(NS)| = 768
+hom well defined: true
+minus in image of O_h: true
+|Sym| (act as +-1 on discr) = 192   IdGroup [ 192, 955 ]  (C2 x C2 x C2) : S4
+|Sp|  (act as +1 on discr)  = 96   IdGroup [ 96, 227 ]  (C2 x C2) : S4
+|geometric W(B4) image| = 192   IdGroup [ 192, 955 ]
+Geo subgroup of O_h: true   Geo = Sym: true
+|Geo symplectic (det +1)| = 96   GeoSp = SpG: true   IdGroup [ 96, 227 ]
+orbits of Sym on conics: [ 16, 16, 48, 48, 48, 48, 48, 48, 96, 96, 192 ]
+orbits of SpG on conics: [ 16, 16, 48, 48, 48, 48, 48, 48, 96, 96, 96, 96 ]
+orbits of O_h on conics: [ 32, 48, 48, 96, 96, 192, 192 ]

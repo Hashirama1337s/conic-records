@@ -1,0 +1,65 @@
+/* lattice640.gp (cert660, from cert736/lattice736.gp, from cert704/lattice704.gp = EXACT-UB lattice.gp): lattice census from the EXACT Gram gram640_cert.gp. */
+\\ S = Z-span of the conic classes = Z^656 / radical(Gc). Basis via mathnf(Gc,1).
+default(parisizemax, 4000000000); default(parisize, 512000000);
+read("gram640_cert.gp");
+N = #Gc;
+print("N = ", N, "  symmetric: ", Gc == Gc~);
+[H, U] = mathnf(Gc, 1);
+r = #H; print("rank of Gram (columns of HNF): ", r);
+Y = U[, N - r + 1 .. N];               \\ Gc * Y = H (the image basis); Y = preimages
+S = Y~ * Gc * Y;
+print("det S = ", matdet(S), "   snf: ", matsnf(S));
+sig = [#select(x -> x > 0, qfjacobi(S * 1.)[1]), #select(x -> x < 0, qfjacobi(S * 1.)[1])];
+print("signature: ", sig);
+\\ each conic class in the basis: Gc * e_i = H * a_i  ->  a_i = H^-1 Gc[,i]
+Ainv = matinverseimage(H, Gc);
+print("all conic coordinates integral: ", denominator(Ainv) == 1);
+J4 = select(j->Gc[1,j]==4, [1..N]); print("residual of conic 1: ", J4); hv = Ainv[,1] + Ainv[,J4[1]];
+print("h^2 = ", hv~ * S * hv, "   (expect 4)");
+\\ consistency: S-Gram of the conic coordinates reproduces Gc
+print("Gram reproduced: ", Ainv~ * S * Ainv == Gc);
+\\ h-parity of S
+print("h.v even for all basis v: ", vector(r, i, (S * hv)[i] % 2) == vector(r));
+
+\\ ---- index-2 overlattices: classes x = v/2 with S v = 0 mod 2
+K2 = matker(Mod(S, 2));
+print("dim ker(S mod 2) = ", #K2);
+cand = List();
+{forvec(e = vector(#K2, i, [0, 1]), if (e == vector(#K2), next);
+  my(v = lift(K2 * e~), x = v / 2, q = x~ * S * x, integ = denominator(S * x) == 1);
+  listput(cand, [v, q, integ]);
+  print("class v/2: x^2 = ", q, "   (S x integral: ", integ, ")  even-isotropic (x^2 in 2Z): ", denominator(q) == 1 && q % 2 == 0));}
+
+\\ positive-definite form 2B(v) = -2 v^2 + (v.h)^2 on a lattice with Gram M and polarisation hh
+posform(M, hh) = my(w = M * hh); -2 * M + w * w~;
+census(M, hh, bound, tag) =
+{
+  my(Q = posform(M, hh), L = qfminim(Q, bound)[3], tally = Map(), c = 0);
+  for (i = 1, #L, my(v = L[, i], n = v~ * M * v, d = abs((M * hh)~ * v), key = [n, d]);
+    if (mapisdefined(tally, key), mapput(tally, key, mapget(tally, key) + 1), mapput(tally, key, 1)));
+  print(tag, ": vectors (up to sign) with 2B <= ", bound, ": ", #L);
+  print(tag, ": [v^2, |v.h|] -> count (up to sign): ", Mat(tally));
+  tally;
+}
+TS = census(S, hv, 8, "S");
+nconS = if (mapisdefined(TS, [-2, 2]), mapget(TS, [-2, 2]), 0);
+print("S: #{v : v^2 = -2, v.h = 2} = ", nconS);
+
+\\ ---- each even overlattice
+{for (k = 1, #cand, my(v = cand[k][1], q = cand[k][2], integ = cand[k][3]);
+  if (!(integ && denominator(q) == 1 && q % 2 == 0), print("class ", k, ": not an even integral overlattice -> excluded"); next);
+  my(Bm = mathnf(concat(2*matid(r), v)) / 2, Mo = Bm~ * S * Bm, ho = matsolve(Bm, hv));
+  print("class ", k, ": even overlattice, det ", matdet(Mo), "; h coords integral: ", denominator(ho) == 1);
+  census(Mo, ho, 8, Str("N", k)));}
+/* index-3 overlattices (cert660 addition: 3 divides det S): classes x = v/3 with S v = 0 mod 3, one per +-pair */
+K3 = matker(Mod(S, 3));
+print("dim ker(S mod 3) = ", #K3);
+{forvec(e = vector(#K3, i, [0, 2]), if (e == vector(#K3), next);
+  my(f = 0); for(i=1,#e, if(e[i], f = e[i]; break)); if(f == 2, next);
+  my(v = lift(K3 * e~), x = v / 3, q = x~ * S * x, integ = denominator(S * x) == 1);
+  print("class v/3: x^2 = ", q, "   (S x integral: ", integ, ")  even (x^2 in 2Z): ", denominator(q) == 1 && q % 2 == 0);
+  if(integ && denominator(q) == 1 && q % 2 == 0,
+    my(Bm = mathnf(concat(3*matid(r), v)) / 3, Mo = Bm~ * S * Bm, ho = matsolve(Bm, hv));
+    print("   even overlattice, det ", matdet(Mo), "; h coords integral: ", denominator(ho) == 1);
+    census(Mo, ho, 8, "N3")));}
+print("LATTICE_DONE");

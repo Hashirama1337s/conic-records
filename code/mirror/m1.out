@@ -1,0 +1,10 @@
+I sign [1, 17] det -576
+|O(NS_gen,h)| (P-form autos fixing h-flag; may include -h) = 12288
+all gens fix h after sign fix: 1
+A_NS orders [12, 12, 2, 2]
+|A| 576
+perms ok: 1
+|H| = |image of O(NS_gen,h) in O(A_NS)| = 256
+cand sizes [32, 16, 4, 4]
+|O(q_NS)| = 256
+index [O(q_NS) : H] = 1

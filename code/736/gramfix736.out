@@ -1,0 +1,5 @@
+undecided entries in raw Gram: 256
+rule 1 (transpose decided): fixed 256, still undecided (both sides) 0
+symmetric now: 1   values: [-2, 0, 1, 2, 4]
+rank: 20
+WROTE gram736_cert.gp

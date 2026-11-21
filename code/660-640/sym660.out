@@ -1,0 +1,6 @@
+linear group order: 120  IdGroup [ 120, 34 ]  S5
+scalar matrices in it: 1
+det +1 part: order 60  IdGroup [ 60, 5 ]  A5
+element (order, count) in det +1 part: [ [ 1, 1 ], [ 2, 15 ], [ 3, 20 ], 
+  [ 5, 24 ] ]
+involutions in L: det -1 (transpositions) 10,  det +1 15

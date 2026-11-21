@@ -1,0 +1,35 @@
+conj: i -> 1 (-i)   sqrt2 fixed 1   sqrt3 fixed 1   involution on th 1
+z  *** read: Warning: increasing stack size to 16000000.
+  *** read: Warning: increasing stack size to 32000000.
+  *** vecextract: Warning: increasing stack size to 64000000.
+mega since F(gX) = F(X))
+conics: 640
+final Gram invariant under all 384 permutations: 1   faithful: 1
+orbit sizes on conics, G (384): [32, 64, 64, 96, 96, 96, 96, 96]
+orbit sizes on conics, Sp (192): [16, 16, 64, 64, 96, 96, 96, 96, 96]
+u = conj(c)/c: 1   (c real)
+h0 maps X_cbar to X_c: F_c(h0 X) == F_cbar(X): 1
+coset elements: 384   involutive (h conj(h) scalar): 52   scalars seen: [-1, 1]
+classes of real structures (twisted conjugation by G): 5   sizes [4, 12, 24, 6, 6]   h conj(h): [1, 1, 1, 1, -1]
+rational model's structure h_rat = M conj(M)^-1 = [1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0; 0, 0, 0, 1]  in coset: 1
+rational model belongs to class 1
+exact sign test: sign(sqrt3 - sqrt2 - 0.3) = 1 (expect +1: 0.0178...),  sign(5*sqrt6 - 7*sqrt2 - 2) = 1 (expect +1)
+class 1 (size 4, h conj(h) = 1, = the rational model X640 = sum x^4 - sum x_i^2x_j^2 + 10xyzw (via H)): sigma-real conics 32;  sigma-real planes 88;  real conics per numerical orbit label Mat([1, 32])
+   h conj(A) == lam*A: 1 (lam = 1)   det A != 0: 1
+   real model F(A X')/lead: all 11 coefficients real: 1   F(A X')/lead = y1^4 + (-y2^2 + (-y3^2 - y4^2))*y1^2 + 10*y4*y3*y2*y1 + (y2^4 + (-y3^2 - y4^2)*y2^2 + (y3^4 - y4^2*y3^2 + y4^4))
+   real conics with real points: 16 of 32;  leading-minor sign patterns [[1, 1, -1], 16; [1, 1, 1], 16]
+class 2 (size 12, h conj(h) = 1): sigma-real conics 32;  sigma-real planes 32;  real conics per numerical orbit label [3, 16; 7, 16]
+   h conj(A) == lam*A: 1 (lam = 1)   det A != 0: 1
+   real model F(A X')/lead: all 5 coefficients real: 1   F(A X')/lead = y1^4 + Mod(14, th^8 - th^4 + 1)*y4*y3*y2*y1 + (Mod(-1/4, th^8 - th^4 + 1)*y2^4 + (Mod(-1/4, th^8 - th^4 + 1)*y3^4 + y4^4))
+   real conics with real points: 24 of 32;  leading-minor sign patterns [[1, -1, -1], 12; [1, 1, -1], 12; [1, 1, 1], 8]
+class 3 (size 24, h conj(h) = 1): sigma-real conics 48;  sigma-real planes 48;  real conics per numerical orbit label [1, 16; 3, 16; 7, 8; 8, 8]
+   h conj(A) == lam*A: 1 (lam = 1)   det A != 0: 1
+   real model F(A X')/lead: all 7 coefficients real: 1   F(A X')/lead = y1^4 + (7*y3^2 + Mod(7, th^8 - th^4 + 1)*y4^2)*y2*y1 + (y2^4 + (1/8*y3^4 + Mod(-3/4, th^8 - th^4 + 1)*y4^2*y3^2 + Mod(1/8, th^8 - th^4 + 1)*y4^4))
+   real conics with real points: 44 of 48;  leading-minor sign patterns [[1, -1, -1], 12; [1, -1, 1], 24; [1, 1, -1], 8; [1, 1, 1], 4]
+class 4 (size 6, h conj(h) = 1): sigma-real conics 32;  sigma-real planes 112;  real conics per numerical orbit label Mat([3, 32])
+   h conj(A) == lam*A: 1 (lam = 1)   det A != 0: 1
+   real model F(A X')/lead: all 10 coefficients real: 1   F(A X')/lead = y1^4 + (Mod(-6, th^8 - th^4 + 1)*y2^2 + (14*y3^2 + Mod(14, th^8 - th^4 + 1)*y4^2))*y1^2 + (Mod(1, th^8 - th^4 + 1)*y2^4 + (Mod(14, th^8 - th^4 + 1)*y3^2 + Mod(14, th^8 - th^4 + 1)*y4^2)*y2^2 + (y3^4 + Mod(-6, th^8 - th^4 + 1)*y4^2*y3^2 + Mod(1, th^8 - th^4 + 1)*y4^4))
+   real conics with real points: 16 of 32;  leading-minor sign patterns [[1, -1, 1], 8; [1, 1, -1], 8; [1, 1, 1], 16]
+class 5 (size 6, h conj(h) = -1): sigma-real conics 0;  sigma-real planes 0;  real conics per numerical orbit label [;]
+   h conj(h) = -I: sigma has no fixed points on P^3, so no conic has real points
+REALPIC_DONE

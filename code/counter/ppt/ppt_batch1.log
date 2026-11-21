@@ -1,0 +1,19 @@
+== custom 32003 11 ppt_S4_m1 runs/ppt_S4_m1.txt
+msolve-g1 rc=0 secs=15 base=runs/ppt_S4_m1_p32003_s11
+leading terms 389  vdim (with multiplicity) = 344
+== custom 32003 12 ppt_S4_m1 runs/ppt_S4_m1.txt
+msolve-g1 rc=0 secs=14 base=runs/ppt_S4_m1_p32003_s12
+leading terms 389  vdim (with multiplicity) = 344
+== custom 65521 13 ppt_S4_m2 runs/ppt_S4_m2.txt
+msolve-g1 rc=0 secs=16 base=runs/ppt_S4_m2_p65521_s13
+leading terms 389  vdim (with multiplicity) = 344
+== custom 32003 11 ppt_F5_m1 runs/ppt_F5_m1.txt
+msolve-g1 rc=0 secs=14 base=runs/ppt_F5_m1_p32003_s11
+leading terms 476  vdim (with multiplicity) = 400
+== custom 32003 12 ppt_F5_m1 runs/ppt_F5_m1.txt
+msolve-g1 rc=0 secs=16 base=runs/ppt_F5_m1_p32003_s12
+leading terms 476  vdim (with multiplicity) = 400
+== custom 65521 13 ppt_F5_m2 runs/ppt_F5_m2.txt
+msolve-g1 rc=0 secs=14 base=runs/ppt_F5_m2_p65521_s13
+leading terms 476  vdim (with multiplicity) = 400
+== PPT BATCH DONE

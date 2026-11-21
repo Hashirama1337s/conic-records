@@ -1,0 +1,6 @@
+closure 192 |O_h| 96 |Sym| 48 |Sp| 24
+all isometries: 1  all fix h: 1
+Sym order 48 IdGroup [ 48, 48 ] C2 x S4
+Sp order 24 IdGroup [ 24, 12 ] S4
+Oh order 96 IdGroup [ 96, 226 ] C2 x C2 x S4
+centre of Sym: 2  Sp normal in Sym: true

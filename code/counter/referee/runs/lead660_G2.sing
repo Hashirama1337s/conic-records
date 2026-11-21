@@ -1,0 +1,2 @@
+int PR=20233; int SEED=1102; int DOLEX=0; string FSTR="6*(x^4+y^4+z^4+w^4+(x+y+z+w)^4)+(x^2+y^2+z^2+w^2+(x+y+z+w)^2)^2";
+< "rcount.sing";

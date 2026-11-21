@@ -1,0 +1,21 @@
+gram660_cert.gp: det S = -240   discriminant group [60, 4]
+   T = [2,0,120] no
+   T = [4,0,60] MATCHES -q_S
+   T = [6,0,40] no
+   T = [8,0,30] no
+   T = [8,4,32] no
+   T = [10,0,24] no
+   T = [12,0,20] no
+   T = [16,4,16] no
+   matching forms: 1
+gram640_cert.gp: det S = -288   discriminant group [72, 4]
+   T = [2,0,144] no
+   T = [4,0,72] MATCHES -q_S
+   T = [6,0,48] no
+   T = [8,0,36] no
+   T = [8,4,38] no
+   T = [12,0,24] no
+   T = [16,0,18] no
+   T = [16,8,22] no
+   T = [18,6,18] no
+   matching forms: 1

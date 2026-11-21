@@ -1,0 +1,8 @@
+cubic(t) = 0
+E - (1688-1140t-1044t^2)/361 = 0
+char 0 over K: dim of Jacobian ideal (0 = only the origin = smooth) 0  seconds 0
+dim(J + F) = 0
+p=20021 t=4116: dim jac 0
+p=20029 t=12081: dim jac 0
+control (3,5/2) singular expected: dim jac 1
+exit 0 wall 0 s

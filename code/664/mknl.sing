@@ -1,0 +1,25 @@
+// NL model on the line b = -a of the family F = a*S4 + b*S22 + c*xyzw (a=1,b=-1):
+// planes through P=(1,-1,0,0) (isolated point of the reflection x<->y), section split Q(m)Q(-m), m = x - y direction.
+int CH = `CH`; int CHART = `CHART`;
+ring R = 0, (v,l2,l3,n0,n1,n2,r0,r1,al,c,m,z,w), dp;
+poly p = -(l2*z + l3*w);
+poly x = (p + m)/2; poly y = (p - m)/2;
+poly F = x^4+y^4+z^4+w^4 - (x^2*y^2+x^2*z^2+x^2*w^2+y^2*z^2+y^2*w^2+z^2*w^2) + c*x*y*z*w;
+matrix Cm = coeffs(F, m);
+poly G4 = Cm[1,1]; poly G1 = Cm[2,1]; poly G2 = Cm[3,1]; poly G3 = Cm[4,1]; poly G0 = Cm[5,1];
+if (G1 != 0 || G3 != 0) { "ODD TERMS"; }
+poly N = n0*z^2 + n1*z*w + n2*w^2; poly L = r0*z + r1*w;
+poly E4 = G4 - N^2; poly E2 = G2 - 2*al*N + L^2;
+ideal I = G0 - al^2;
+int i, j;
+for (i = 0; i <= 4; i++) { I = I, coeffs(coeffs(E4, z)[i+1,1], w)[4-i+1,1]; }
+for (i = 0; i <= 2; i++) { I = I, coeffs(coeffs(E2, z)[i+1,1], w)[2-i+1,1]; }
+if (CHART == 1) { I = I, v*r0 - 1; }
+if (CHART == 2) { I = I, r0, v*r1 - 1; }
+I = simplify(I, 2);
+string fn = "nl_line_ch" + string(CHART) + "_" + string(CH) + ".ms";
+write(":w " + fn, "v,l2,l3,n0,n1,n2,r0,r1,al,c");
+write(fn, string(CH));
+for (i = 1; i <= size(I); i++) { if (i < size(I)) { write(fn, string(cleardenom(I[i])) + ","); } else { write(fn, string(cleardenom(I[i]))); } }
+"wrote", fn, size(I);
+quit;

@@ -1,0 +1,8 @@
+linear group order: 1536
+scalars in it: 4
+projective group order: 384  IdGroup [ 384, 18135 ]  (C2 x C2 x C2 x C2) : S4
+diagonal part: order 16  abelian invariants [ 4, 4 ]
+det +1 part: order 192  IdGroup 
+[ 192, 1023 ]  (((C4 x C2) : C2) : (C2 x C2)) : C3
+det +1 part element orders (order, count): [ [ 1, 1 ], [ 2, 27 ], [ 3, 128 ], 
+  [ 4, 36 ] ]

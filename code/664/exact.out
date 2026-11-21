@@ -1,0 +1,68 @@
+P(t) = t^8 - 28*t^6 + 238*t^4 + 372*t^2 + 441   irreducible: 1   degree:  *** _~: Warning: increasing stack size to 16000000.
+  *** _==_: Warning: increasing stack size to 32000000.
+3^2 = Mod(3, t^8 - 28*t^6 + 238*t^4 + 372*t^2 + 441), e5^2 = Mod(5, t^8 - 28*t^6 + 238*t^4 + 372*t^2 + 441), eI + e3 + e5 = t
+working precision (digits): 443
+orbit 0 size 96: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 1 size 48: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 2 size 48: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 3 size 48: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 4 size 48: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 5 size 96: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 6 size 24: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 7 size 24: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 8 size 24: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 9 size 24: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 10 size 48: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 11 size 48: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 12 size 16: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 13 size 16: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 14 size 24: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 15 size 24: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+orbit 16 size 8: F|plane - mu Q1 Q2 == 0: 1; det Q1 != 0: 1; det Q2 != 0: 1; Q1, Q2 proportional: 0
+EXACT identities verified: 17 of 17
+recognition: max height 2973628, max holdout residual (full precision) 1.41519239516348684813876740564877895743 E-414, perturbation null rejected 268 of 268
+orbit 0 size 96: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 1 size 48: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 2 size 48: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 3 size 48: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 4 size 48: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 5 size 96: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 6 size 24: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 7 size 24: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 8 size 24: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 9 size 24: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 10 size 48: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 11 size 48: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 12 size 16: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0], [1, 0, 1], [1, 1, 1]]  of plane+conic [[0, 0, 0], [1, 1, 1]]
+orbit 13 size 16: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0], [1, 0, 1], [1, 1, 1]]  of plane+conic [[0, 0, 0], [1, 1, 1]]
+orbit 14 size 24: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0], [1, 0, 0], [1, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 15 size 24: Gal-stabiliser of plane [[0, 0, 0], [0, 1, 0], [1, 0, 0], [1, 1, 0]]  of plane+conic [[0, 0, 0]]
+orbit 16 size 8: Gal-stabiliser of plane [[0, 0, 0], [0, 0, 1], [0, 1, 0], [0, 1, 1], [1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 1]]  of plane+conic [[0, 0, 0], [0, 0, 1], [1, 1, 0], [1, 1, 1]]
+symmetry matrices: 192
+distinct conics (exact canonical forms): 664   distinct planes: 332
+conics per plane: [2]
+all conics smooth (det != 0 exactly): 1
+all 332-type planes: F|plane = mu*Q1*Q2 exactly: 1
+wrote conics_exact.txt
+wrote reps_exact.txt
+EXACT_PART1_DONE
+  plane 20 of 332, ms 24505
+  plane 40 of 332, ms 51029
+  plane 60 of 332, ms 75330
+  plane 80 of 332, ms 99457
+  plane 100 of 332, ms 123988
+  plane 120 of 332, ms 143162
+  plane 140 of 332, ms 165823
+  plane 160 of 332, ms 180788
+  plane 180 of 332, ms 193897
+  plane 200 of 332, ms 205836
+  plane 220 of 332, ms 216186
+  plane 240 of 332, ms 224594
+  plane 260 of 332, ms 230999
+  plane 280 of 332, ms 235649
+  plane 300 of 332, ms 238260
+  plane 320 of 332, ms 239175
+Gram time (ms): 239222
+entries failing the sum rule: 0   Gram symmetric: 1   (conic, plane) incidences at a point of C cap C' cap C'' (each 1+1): 32
+value counts: [-2, 664; 0, 99144; 1, 241280; 2, 99144; 4, 664]
+EXACT_DONE

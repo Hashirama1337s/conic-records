@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Conic records: explicit equations for record quartic surfaces with 656, 664, 704, 736, 660 and 640 conics"
+authors:
+  - name: "Moki & Julio"
+version: "1.0"
+license: CC-BY-4.0
+keywords:
+  - quartic surface
+  - K3 surface
+  - conics on surfaces
+  - real algebraic geometry
+  - Neron-Severi lattice
+  - Noether-Lefschetz locus
+  - Barth-Bauer quartic
+  - Goursat surface
+  - Dwork pencil
+  - certified computation
+  - computer algebra
+  - Lean 4
+abstract: >-
+  Degtyarev proved that a smooth quartic surface carries at most 800 conics and described the record configurations
+  by lattice data; for most of them no equation was found at our search floor (November 2026), including the real record, a real quartic with 656 real
+  conics (configuration (5.14), real bound 656 to 718). This release gives explicit equations, with exact conic counts,
+  for six of these surfaces: the real record E w^4 - E q w^2 + q^2 + t p4 = 0 over the cubic field of discriminant -244
+  (exactly 656 conics, all real with real points), a member of the W(D4) net with 664 conics over Q(sqrt(-5)), the
+  704-conic Barth-Bauer quartic as the member 52 lambda^2 + 36 lambda + 9 = 0 of the W(B4) pencil, the 736-conic quartic
+  -x^4 + y^4 + z^4 + 9w^4 + 6xyzw = 0 (a Dwork CM point), the 660-conic member of the Hashimoto pencil, and the 640-conic
+  Barth-Bauer quartic (another Dwork CM point). For each surface every conic is written out exactly over a number field,
+  the identities are checked in PARI/GP and Singular, the intersection Gram matrix is computed exactly or with
+  certified ball arithmetic, and a lattice census on that Gram proves the count is exact and that there are no lines;
+  explicit lattice isomorphisms match the 704, 736, 660 and 640 surfaces with Degtyarev's configurations, 664 is
+  matched by lattice invariants, and 656 by an explicit match on a numerical Gram with certified invariants. It also maps the conic counts over
+  Goursat's octahedral family (eight Noether-Lefschetz curves, completeness argued, an additive rule, the 656 point in the unique all-real
+  chamber, the Mukai quartic as a node), shows the family has no hidden symmetry, records an untested quaternion
+  (discriminant 6) structure, reports two misprints in the literature (one argued), and independently reproduces six certified
+  generic counts of Pichon-Pharabod and Telen. Sealed (pre-registered) tests, all transcripts and the re-check scripts
+  are included. The surfaces' existence, lattices and bounds are Degtyarev's; the families are classical or published
+  and are credited. Code is MIT-licensed (LICENSE-CODE). Written with AI assistance.

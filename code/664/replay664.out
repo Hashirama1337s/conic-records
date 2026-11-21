@@ -1,0 +1,19 @@
+Groebner basis size: 3
+orbit 0: pivot == 1: 1   identity reduces to 0: 1
+orbit 1: pivot == 1: 1   identity reduces to 0: 1
+orbit 2: pivot == 1: 1   identity reduces to 0: 1
+orbit 3: pivot == 1: 1   identity reduces to 0: 1
+orbit 4: pivot == 1: 1   identity reduces to 0: 1
+orbit 5: pivot == 1: 1   identity reduces to 0: 1
+orbit 6: pivot == 1: 1   identity reduces to 0: 1
+orbit 7: pivot == 1: 1   identity reduces to 0: 1
+orbit 8: pivot == 1: 1   identity reduces to 0: 1
+orbit 9: pivot == 1: 1   identity reduces to 0: 1
+orbit 10: pivot == 1: 1   identity reduces to 0: 1
+orbit 11: pivot == 1: 1   identity reduces to 0: 1
+orbit 12: pivot == 1: 1   identity reduces to 0: 1
+orbit 13: pivot == 1: 1   identity reduces to 0: 1
+orbit 14: pivot == 1: 1   identity reduces to 0: 1
+orbit 15: pivot == 1: 1   identity reduces to 0: 1
+orbit 16: pivot == 1: 1   identity reduces to 0: 1
+identities holding: 17 of 17;  negative control (mu + 10^-6) fails in 17 of 17

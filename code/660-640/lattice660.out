@@ -1,0 +1,22 @@
+N = 660  symmetric: 1
+rank of Gram (columns of HNF): 20
+det S = -240   snf: [60, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+signature: [1, 19]
+all conic coordinates integral: 1
+residual of conic 1: [61]
+h^2 = 4   (expect 4)
+Gram reproduced: 1
+h.v even for all basis v: 1
+dim ker(S mod 2) = 2
+class v/2: x^2 = -33   (S x integral: 1)  even-isotropic (x^2 in 2Z): 0
+class v/2: x^2 = -285   (S x integral: 1)  even-isotropic (x^2 in 2Z): 0
+class v/2: x^2 = -498   (S x integral: 1)  even-isotropic (x^2 in 2Z): 1
+S: vectors (up to sign) with 2B <= 8: 4516
+S: [v^2, |v.h|] -> count (up to sign): [[-4, 0], 3855; [-2, 2], 660; [4, 4], 1]
+S: #{v : v^2 = -2, v.h = 2} = 660
+class 1: not an even integral overlattice -> excluded
+class 2: not an even integral overlattice -> excluded
+class 3: even overlattice, det -60; h coords integral: 1
+N3: vectors (up to sign) with 2B <= 8: 8906
+N3: [v^2, |v.h|] -> count (up to sign): [[-4, 0], 7595; [-2, 0], 10; [-2, 2], 1300; [4, 4], 1]
+LATTICE_DONE

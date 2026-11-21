@@ -1,0 +1,9 @@
+// smooth704.sing (cert704): X704 is smooth: jacobian ideal of F has only the origin (affine dim 0)
+ring r = (0,i),(x,y,z,w),dp;
+minpoly = i^2+1;
+number lam = (-9+6*i)/26;
+poly F = x^4+y^4+z^4+w^4 + lam*(x2+y2+z2+w2)^2;
+ideal J = std(jacob(F));
+"dim of jacobian ideal (0 = smooth):", dim(J);
+"vdim (Milnor number of the cone point = 3^4 = 81 for a smooth quartic):", vdim(J);
+quit;

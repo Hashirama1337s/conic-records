@@ -1,0 +1,10 @@
+centre on X check F(c) = 0  det T = 2632
+equations: 9
+dim 0  vdim(with multiplicity) 736  slimgb seconds 205
+after change vdim 736
+lex eliminant degree 736
+DISTINCT (squarefree degree of eliminant) 736
+eliminant vars 8 L1=a3^736
+shape position (lex basis size 8): 8
+REFEREE_DONE
+exit 0 wall 290 s

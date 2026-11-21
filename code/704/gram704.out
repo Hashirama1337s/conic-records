@@ -1,0 +1,26 @@
+seed conics: 22
+|W(B4)| = 384
+distinct conics (exact dual-quadric keys):  *** select: Warning: increasing stack size to 16000000.
+  *** _~: Warning: increasing stack size to 32000000.
+0, 96, 96, 0, 0, 48, 0, 16, 16, 0, 0, 48, 48, 0, 0, 192, 0]
+generator seeds: [1, 2, 5, 7, 8, 11, 13, 14, 17, 18, 21]
+G[1] is identity: 1
+row of seed 1 (conic 1) done, value counts [1, 159, 384, 159, 1]  762 ms
+row of seed 2 (conic 49) done, value counts [1, 159, 384, 159, 1]  1589 ms
+row of seed 5 (conic 97) done, value counts [1, 155, 392, 155, 1]  2202 ms
+row of seed 7 (conic 145) done, value counts [1, 159, 384, 159, 1]  3015 ms
+row of seed 8 (conic 241) done, value counts [1, 159, 384, 159, 1]  3947 ms
+row of seed 11 (conic 337) done, value counts [1, 155, 392, 155, 1]  4577 ms
+row of seed 13 (conic 385) done, value counts [1, 171, 360, 171, 1]  5203 ms
+row of seed 14 (conic 401) done, value counts [1, 171, 360, 171, 1]  5921 ms
+row of seed 17 (conic 417) done, value counts [1, 163, 376, 163, 1]  6653 ms
+row of seed 18 (conic 465) done, value counts [1, 163, 376, 163, 1]  7392 ms
+row of seed 21 (conic 513) done, value counts [1, 155, 392, 155, 1]  8164 ms
+undecided entries: 0
+generator permutations computed (10853 ms)
+all permutations composed: 384 (10860 ms)
+spot check of 5 composed permutations against direct computation: OK
+Gram symmetric: 1
+value counts: [-2, 704; 0, 111552; 1, 271104; 2, 111552; 4, 704]
+Gram invariant under all 384 permutations: 1
+GRAM_DONE

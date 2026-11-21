@@ -1,0 +1,6 @@
+PI is a permutation of 1..640: 1
+Gd[PI,PI] == Gc (exact, PARI): 1
+tes).
+  *** read: Warning: increasing stack size to 16000000.
+  ***   Warning: increasing stack size to 32000000.
+  ***   Warning: increasing stack size to 64000000.

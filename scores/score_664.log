@@ -1,0 +1,18 @@
+== R1 referee counter p 20023 c 2924 seed 801 DOLEX 1
+dim 0  vdim(with multiplicity) 664  slimgb seconds 188
+after change vdim 664
+DISTINCT (squarefree degree of eliminant) 664
+exit 0 wall 255 s
+== R2 our counter p 20047 c 1889 seed 802
+wrote runs/lead664_R2_p20047_s802 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind abcde p 20047 args ['1', '-1/2', '-1/2', '-1/2', '5484']
+leading terms 792  vdim (with multiplicity) = 664
+== R3 referee counter p 20063 c 2208 seed 803 DOLEX 0
+dim 0  vdim(with multiplicity) 664  slimgb seconds 185
+exit 0 wall 187 s
+== R4 generic (1:1/3:5) p 20023 seed 804
+wrote runs/lead664_R4_p20023_s804 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind abcde p 20023 args ['1', '1/6', '1/6', '1/6', '5/4']
+leading terms 647  vdim (with multiplicity) = 464
+== R5 line (1:-1:5) p 20023 seed 805
+wrote runs/lead664_R5_p20023_s805 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind abcde p 20023 args ['1', '-1/2', '-1/2', '-1/2', '5/4']
+leading terms 679  vdim (with multiplicity) = 472
+== SCORING DONE

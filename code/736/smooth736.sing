@@ -1,0 +1,8 @@
+ring r=0,(x,y,z,w),dp;
+poly F=-x^4+y^4+z^4+9*w^4+6*x*y*z*w;
+ideal J=std(jacob(F));
+print("dim Jacobian ideal (0 = smooth surface):"); print(dim(J));
+print("vdim:"); print(vdim(J));
+poly D=x^4+y^4+z^4+w^4+4*x*y*z*w;
+print("control Dwork c=4 (psi^4=1) dim:"); print(dim(std(jacob(D))));
+quit;

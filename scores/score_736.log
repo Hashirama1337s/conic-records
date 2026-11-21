@@ -1,0 +1,12 @@
+== D1 p 20201 seed 1001 DOLEX 1
+dim 0  vdim(with multiplicity) 736  slimgb seconds 205
+after change vdim 736
+DISTINCT (squarefree degree of eliminant) 736
+exit 0 wall 290 s
+== D2 p 20219 seed 1002 DOLEX 0
+dim 0  vdim(with multiplicity) 736  slimgb seconds 204
+exit 0 wall 205 s
+== D3 control Dwork c=5 p 20201 seed 1003
+dim 0  vdim(with multiplicity) 608  slimgb seconds 197
+exit 0 wall 199 s
+== SCORING DONE

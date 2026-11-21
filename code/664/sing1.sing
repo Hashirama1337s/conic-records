@@ -1,0 +1,17 @@
+ring R = 0, (x,y,z,w), dp;
+list cs = 2, 6, 10, 18, 30, 1, 3, 7;
+int i;
+for (i = 1; i <= size(cs); i++) {
+  number c = cs[i];
+  poly F = x^4+y^4+z^4+w^4 - (x^2*y^2+x^2*z^2+x^2*w^2+y^2*z^2+y^2*w^2+z^2*w^2) + c*x*y*z*w;
+  ideal J = std(jacob(F));
+  "c =", c, "  dim of singular locus (affine cone; 0 = smooth):", dim(J), " vdim ", vdim(J);
+  kill c; kill F; kill J;
+}
+ring S = (0,s), (x,y,z,w), dp; minpoly = s^2+45;
+poly F = x^4+y^4+z^4+w^4 - (x^2*y^2+x^2*z^2+x^2*w^2+y^2*z^2+y^2*w^2+z^2*w^2) + s*x*y*z*w;
+ideal J = std(jacob(F)); "c^2=-45: dim", dim(J);
+ring S4 = (0,s), (x,y,z,w), dp; minpoly = s^4+675*s^2-2187;
+poly F = x^4+y^4+z^4+w^4 - (x^2*y^2+x^2*z^2+x^2*w^2+y^2*z^2+y^2*w^2+z^2*w^2) + s*x*y*z*w;
+ideal J = std(jacob(F)); "c^4+675c^2-2187: dim", dim(J);
+quit;

@@ -1,0 +1,110 @@
+rows: 30
+u in [-16.2072579749404760327808433636 +/- 2.63e-29]  t in [-1.80080644166005289253120481817 +/- 4.86e-30]
+orbit 0 conic rep |det| >= [0.14510 +/- 3.27e-6] signs (-1,1,1) indefinite
+orbit 0 conic res |det| >= [0.097480 +/- 1.55e-8] signs (1,1,-1) indefinite
+orbit 0 rep/res certified non-proportional: True
+orbit 1 conic rep |det| >= [0.097480 +/- 1.55e-8] signs (1,1,-1) indefinite
+orbit 1 conic res |det| >= [0.14510 +/- 3.27e-6] signs (-1,1,1) indefinite
+orbit 1 rep/res certified non-proportional: True
+orbit 2 conic rep |det| >= [0.10958 +/- 3.48e-6] signs (-1,-1,1) indefinite
+orbit 2 conic res |det| >= [0.10958 +/- 3.48e-6] signs (1,-1,1) indefinite
+orbit 2 rep/res certified non-proportional: True
+orbit 3 conic rep |det| >= [0.078506 +/- 1.84e-7] signs (-1,-1,1) indefinite
+orbit 3 conic res |det| >= [0.10095 +/- 3.59e-6] signs (1,1,-1) indefinite
+orbit 3 rep/res certified non-proportional: True
+orbit 4 conic rep |det| >= [0.10095 +/- 3.59e-6] signs (1,1,-1) indefinite
+orbit 4 conic res |det| >= [0.078506 +/- 1.84e-7] signs (-1,-1,1) indefinite
+orbit 4 rep/res certified non-proportional: True
+orbit 5 conic rep |det| >= [0.066285 +/- 2.61e-7] signs (1,1,-1) indefinite
+orbit 5 conic res |det| >= [0.060515 +/- 4.12e-7] signs (1,-1,1) indefinite
+orbit 5 rep/res certified non-proportional: True
+orbit 6 conic rep |det| >= [0.060515 +/- 4.12e-7] signs (1,-1,1) indefinite
+orbit 6 conic res |det| >= [0.066285 +/- 2.61e-7] signs (1,1,-1) indefinite
+orbit 6 rep/res certified non-proportional: True
+orbit 7 conic rep |det| >= [0.093215 +/- 2.11e-7] signs (-1,-1,1) indefinite
+orbit 7 conic res |det| >= [0.077374 +/- 4.07e-7] signs (1,-1,1) indefinite
+orbit 7 rep/res certified non-proportional: True
+orbit 8 conic rep |det| >= [0.077374 +/- 4.07e-7] signs (1,-1,1) indefinite
+orbit 8 conic res |det| >= [0.093215 +/- 2.11e-7] signs (-1,-1,1) indefinite
+orbit 8 rep/res certified non-proportional: True
+orbit 9 conic rep |det| >= [0.026852 +/- 4.81e-8] signs (1,-1,1) indefinite
+orbit 9 conic res |det| >= [0.14837 +/- 5.40e-7] signs (1,-1,-1) indefinite
+orbit 9 rep/res certified non-proportional: True
+orbit 10 conic rep |det| >= [0.14837 +/- 5.40e-7] signs (1,-1,-1) indefinite
+orbit 10 conic res |det| >= [0.026852 +/- 4.81e-8] signs (1,-1,1) indefinite
+orbit 10 rep/res certified non-proportional: True
+orbit 11 conic rep |det| >= [0.032375 +/- 2.76e-7] signs (-1,-1,1) indefinite
+orbit 11 conic res |det| >= [0.032375 +/- 2.76e-7] signs (-1,-1,1) indefinite
+orbit 11 rep/res certified non-proportional: True
+orbit 12 conic rep |det| >= [0.13187 +/- 2.85e-6] signs (1,-1,-1) indefinite
+orbit 12 conic res |det| >= [0.13187 +/- 2.85e-6] signs (-1,-1,-1) indefinite
+orbit 12 rep/res certified non-proportional: True
+orbit 13 conic rep |det| >= [0.012380 +/- 2.97e-7] signs (1,-1,-1) indefinite
+orbit 13 conic res |det| >= [0.010294 +/- 2.05e-8] signs (-1,-1,-1) indefinite
+orbit 13 rep/res certified non-proportional: True
+orbit 14 conic rep |det| >= [0.010294 +/- 2.05e-8] signs (-1,-1,-1) indefinite
+orbit 14 conic res |det| >= [0.012380 +/- 2.97e-7] signs (1,-1,-1) indefinite
+orbit 14 rep/res certified non-proportional: True
+orbit 15 conic rep |det| >= [0.33706 +/- 4.34e-6] signs (-1,-1,1) indefinite
+orbit 15 conic res |det| >= [0.33706 +/- 4.34e-6] signs (1,-1,1) indefinite
+orbit 15 rep/res certified non-proportional: True
+orbit 16 conic rep |det| >= [0.028408 +/- 1.89e-7] signs (1,1,-1) indefinite
+orbit 16 conic res |det| >= [0.028408 +/- 1.89e-7] signs (-1,1,1) indefinite
+orbit 16 rep/res certified non-proportional: True
+orbit 17 conic rep |det| >= [0.057893 +/- 3.25e-7] signs (-1,1,1) indefinite
+orbit 17 conic res |det| >= [0.0091904 +/- 4.65e-8] signs (1,-1,1) indefinite
+orbit 17 rep/res certified non-proportional: True
+orbit 18 conic rep |det| >= [0.0091904 +/- 4.65e-8] signs (1,-1,1) indefinite
+orbit 18 conic res |det| >= [0.057893 +/- 3.25e-7] signs (-1,1,1) indefinite
+orbit 18 rep/res certified non-proportional: True
+orbit 19 conic rep |det| >= [0.12444 +/- 1.13e-6] signs (-1,-1,1) indefinite
+orbit 19 conic res |det| >= [0.23803 +/- 1.61e-6] signs (1,-1,1) indefinite
+orbit 19 rep/res certified non-proportional: True
+orbit 20 conic rep |det| >= [0.23803 +/- 1.61e-6] signs (1,-1,1) indefinite
+orbit 20 conic res |det| >= [0.12444 +/- 1.13e-6] signs (-1,-1,1) indefinite
+orbit 20 rep/res certified non-proportional: True
+orbit 21 conic rep |det| >= [0.012834 +/- 1.83e-7] signs (-1,-1,-1) indefinite
+orbit 21 conic res |det| >= [0.016243 +/- 6.95e-8] signs (1,-1,-1) indefinite
+orbit 21 rep/res certified non-proportional: True
+orbit 22 conic rep |det| >= [0.016243 +/- 6.95e-8] signs (1,-1,-1) indefinite
+orbit 22 conic res |det| >= [0.012834 +/- 1.83e-7] signs (-1,-1,-1) indefinite
+orbit 22 rep/res certified non-proportional: True
+orbit 23 conic rep |det| >= [0.38460 +/- 2.59e-6] signs (1,-1,1) indefinite
+orbit 23 conic res |det| >= [0.38460 +/- 2.59e-6] signs (-1,-1,1) indefinite
+orbit 23 rep/res certified non-proportional: True
+orbit 24 conic rep |det| >= [0.030513 +/- 9.76e-8] signs (1,-1,1) indefinite
+orbit 24 conic res |det| >= [0.0081801 +/- 4.01e-8] signs (-1,-1,1) indefinite
+orbit 24 rep/res certified non-proportional: True
+orbit 25 conic rep |det| >= [0.0081801 +/- 4.01e-8] signs (-1,-1,1) indefinite
+orbit 25 conic res |det| >= [0.030513 +/- 9.76e-8] signs (1,-1,1) indefinite
+orbit 25 rep/res certified non-proportional: True
+orbit 26 conic rep |det| >= [0.42336 +/- 3.68e-6] signs (1,1,-1) indefinite
+orbit 26 conic res |det| >= [0.039150 +/- 8.30e-8] signs (-1,1,1) indefinite
+orbit 26 rep/res certified non-proportional: True
+orbit 27 conic rep |det| >= [0.039150 +/- 8.30e-8] signs (-1,1,1) indefinite
+orbit 27 conic res |det| >= [0.42336 +/- 3.68e-6] signs (1,1,-1) indefinite
+orbit 27 rep/res certified non-proportional: True
+orbit 28 conic rep |det| >= [0.0029449 +/- 2.03e-8] signs (-1,-1,-1) indefinite
+orbit 28 conic res |det| >= [0.0029449 +/- 2.03e-8] signs (1,-1,1) indefinite
+orbit 28 rep/res certified non-proportional: True
+orbit 29 conic rep |det| >= [0.014406 +/- 3.85e-7] signs (1,-1,-1) indefinite
+orbit 29 conic res |det| >= [0.014406 +/- 3.85e-7] signs (-1,-1,1) indefinite
+orbit 29 rep/res certified non-proportional: True
+(B) min d_j at real embedding: [0.1038992962 +/- 3.15e-12] (all certified > 0)
+(C) min certified |leading minor| (over sign-decided minors): [0.00294488 +/- 2.38e-10] ; min |det| lower bound: [0.00294488 +/- 2.38e-10]
+(D) plane images: 1440  clusters: 328
+(D) certified distinct plane pairs: 53628 of 53628 ; min certified separation (sup-norm, same normalising coordinate): [0.0475701 +/- 2.39e-9]
+(E) conics: 656
+  plane 0 done, elapsed 0.1 s
+  plane 40 done, elapsed 3.9 s
+  plane 80 done, elapsed 8.0 s
+  plane 120 done, elapsed 12.1 s
+  plane 160 done, elapsed 16.3 s
+  plane 200 done, elapsed 20.2 s
+  plane 240 done, elapsed 24.5 s
+  plane 280 done, elapsed 28.7 s
+  plane 320 done, elapsed 32.8 s
+(E) undecided clusters: 0  merged (tangent-type) clusters: 0  Gram symmetric: True
+(E) min certified |Q_other(point)| deciding membership: [0.000235090 +/- 4.60e-12]
+(E) value counts: [(-2, 656), (0, 96432), (1, 236160), (2, 96432), (4, 656)]
+total seconds 34.1

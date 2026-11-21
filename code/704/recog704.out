@@ -1,0 +1,28 @@
+   realprecision = 443 significant digits (430 digits displayed)
+P8 irreducible: 1  nfdisc [2, 12; 13, 4]  #galoisconj 8
+square roots of -1 in N8: [-32/183*x^7 + 83/183*x^6 - 145/183*x^5 + 17/61*x^4 - 341/183*x^3 + 155/183*x^2 + 11/183*x + 113/61, 32/183*x^7 - 83/183*x^6 + 145/183*x^5 - 17/61*x^4 + 341/183*x^3 - 155/183*x^2 - 11/183*x - 113/61]~
+square roots of 13 in N8: [-16/61*x^7 + 72/61*x^6 - 164/61*x^5 + 178/61*x^4 - 140/61*x^3 + 108/61*x^2 + 36/61*x + 139/61, 16/61*x^7 - 72/61*x^6 + 164/61*x^5 - 178/61*x^4 + 140/61*x^3 - 108/61*x^2 - 36/61*x - 139/61]~
+orbit 1 size 48: recognised with root #1, max lindep coefficient 2998620
+orbit 2 size 48: recognised with root #1, max lindep coefficient 2998620
+orbit 3 size 48: recognised with root #1, max lindep coefficient 19825
+orbit 4 size 96: recognised with root #1, max lindep coefficient 2409352736
+orbit 5 size 96: recognised with root #1, max lindep coefficient 2409352736
+orbit 6 size 48: recognised with root #1, max lindep coefficient 4758
+orbit 7 size 16: recognised with root #1, max lindep coefficient 2973
+orbit 8 size 16: recognised with root #1, max lindep coefficient 2973
+orbit 9 size 48: recognised with root #1, max lindep coefficient 988566
+orbit 10 size 48: recognised with root #1, max lindep coefficient 988566
+orbit 11 size 192: recognised with root #1, max lindep coefficient 120012
+perturbation null: 142 tries, 0 false positives
+orbit 1: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 2: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 3: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 4: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 5: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 6: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 7: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 8: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 9: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 10: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 11: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+EXACT OK: 11 / 11

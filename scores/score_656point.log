@@ -1,0 +1,38 @@
+== Q1a target p 40013 seed 701 (e,t)=(18321,37794)
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [30628, 20626, 9710, 19902]  d = [32725, 38287, 30786, 18852]
+wrote runs/point_Q1a_p40013_s701 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind family p 40013 args ['18321', '37794']
+msolve-g1 rc=0 secs=13 base=/mnt/d/_LIVE/Y56/conic656/build/runs/point_Q1a_p40013_s701
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading terms 792  vdim (with multiplicity) = 656
+msolve rc=0 secs=13 base=/mnt/d/_LIVE/Y56/conic656/build/runs/point_Q1a_p40013_s701
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+runs/point_Q1a_p40013_s701.msout p 40013 nvars 8 header degree 656 elim degree 656 (coeff list length 657)
+== Q1b target p 40031 seed 702 (e,t)=(12425,18408)
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [18906, 11251, 36793, 11623]  d = [8925, 19019, 5104, 11720]
+wrote runs/point_Q1b_p40031_s702 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind family p 40031 args ['12425', '18408']
+msolve-g1 rc=0 secs=17 base=/mnt/d/_LIVE/Y56/conic656/build/runs/point_Q1b_p40031_s702
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading terms 792  vdim (with multiplicity) = 656
+msolve rc=0 secs=13 base=/mnt/d/_LIVE/Y56/conic656/build/runs/point_Q1b_p40031_s702
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+runs/point_Q1b_p40031_s702.msout p 40031 nvars 8 header degree 656 elim degree 656 (coeff list length 657)
+== Q2 second chart p 40013 seed 703
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [31381, 5061, 33638, 2619]  d = [20847, 27360, 937, 35194]
+wrote runs/point_Q2_p40013_s703 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind family p 40013 args ['18321', '37794']
+msolve-g1 rc=0 secs=17 base=/mnt/d/_LIVE/Y56/conic656/build/runs/point_Q2_p40013_s703
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading terms 792  vdim (with multiplicity) = 656
+== Q3 two-class point (28/19,-10/9) p 32003 seed 704
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [188, 23710, 14503, 17327]  d = [20402, 18565, 13769, 14337]
+wrote runs/point_Q3_p32003_s704 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind family p 32003 args ['28/19', '-10/9']
+msolve-g1 rc=0 secs=14 base=/mnt/d/_LIVE/Y56/conic656/build/runs/point_Q3_p32003_s704
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading terms 792  vdim (with multiplicity) = 560
+msolve rc=0 secs=70 base=/mnt/d/_LIVE/Y56/conic656/build/runs/point_Q3_p32003_s704
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+runs/point_Q3_p32003_s704.msout p 32003 nvars 8 header degree 560 elim degree 560 (coeff list length 561)
+== SCORING DONE

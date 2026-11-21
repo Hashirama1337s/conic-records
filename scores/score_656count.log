@@ -1,0 +1,65 @@
+== P1 random quartic, p 32003, seed 9001
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [28354, 8683, 4500, 18358]  d = [12845, 8104, 10014, 20807]
+wrote runs/score_P1_p32003_s9001 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind random p 32003 args []
+msolve-g1 rc=0 secs=15 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P1_p32003_s9001
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading ideal = (1): no solutions, vdim (with multiplicity) = 0
+msolve rc=0 secs=13 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P1_p32003_s9001
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+runs/score_P1_p32003_s9001.msout no solutions
+== P2 Mukai, p 32003, seed 501
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [6825, 1305, 19229, 1594]  d = [9266, 20948, 17379, 11188]
+wrote runs/score_P2_p32003_s501 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind mukai p 32003 args []
+msolve-g1 rc=0 secs=15 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P2_p32003_s501
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading terms 792  vdim (with multiplicity) = 800
+msolve rc=0 secs=13 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P2_p32003_s501
+memcap: exit 0, peak 0.02 GB of 8.00 GB cap
+runs/score_P2_p32003_s501.msout p 32003 nvars 8 header degree 800 elim degree 800 (coeff list length 801)
+== P3a family (7/2, 11), p 32003, chart seed 501
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [18429, 18395, 6129, 17542]  d = [9266, 20948, 17379, 11188]
+wrote runs/score_P3a_p32003_s501 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind family p 32003 args ['7/2', '11']
+msolve-g1 rc=0 secs=17 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P3a_p32003_s501
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading terms 460  vdim (with multiplicity) = 392
+msolve rc=0 secs=13 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P3a_p32003_s501
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+runs/score_P3a_p32003_s501.msout p 32003 nvars 8 header degree 392 elim degree 392 (coeff list length 393)
+== P3b family (-9/4, 13/3), p 32003, chart seed 501
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [26919, 11836, 7168, 21466]  d = [9266, 20948, 17379, 11188]
+wrote runs/score_P3b_p32003_s501 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind family p 32003 args ['-9/4', '13/3']
+msolve-g1 rc=0 secs=17 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P3b_p32003_s501
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading terms 460  vdim (with multiplicity) = 392
+msolve rc=0 secs=12 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P3b_p32003_s501
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+runs/score_P3b_p32003_s501.msout p 32003 nvars 8 header degree 392 elim degree 392 (coeff list length 393)
+== P5 second chart on P3a, p 65521, seed 502
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+chart dense T columns c = [29670, 17381, 37984, 20243]  d = [23820, 47852, 63395, 27967]
+wrote runs/score_P5chart2_p65521_s502 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind family p 65521 args ['7/2', '11']
+msolve-g1 rc=0 secs=17 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P5chart2_p65521_s502
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+leading terms 460  vdim (with multiplicity) = 392
+== P5 Singular slimgb on the P3a system
+1
+Singular rc=0 secs=172 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P5slim_p32003_s501
+dim 0
+vdim 392
+== P4a conics in planes through P, p 32003, seed 501, (e,t) = (7/2, 11)
+memcap: exit 0, peak 0.05 GB of 8.00 GB cap
+wrote runs/score_P4a.ms eqs 9 e,t = 7/2 11 p 32003
+msolve rc=0 secs=0 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P4a
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+runs/score_P4a.msout p 32003 nvars 7 header degree 56 elim degree 56 (coeff list length 57)
+== P4b conics in planes through P, p 32003, seed 501, (e,t) = (-9/4, 13/3)
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap
+wrote runs/score_P4b.ms eqs 9 e,t = -9/4 13/3 p 32003
+msolve rc=0 secs=0 base=/mnt/d/_LIVE/Y56/conic656/build/runs/score_P4b
+memcap: exit 0, peak 0.01 GB of 8.00 GB cap
+runs/score_P4b.msout p 32003 nvars 7 header degree 56 elim degree 56 (coeff list length 57)
+== SCORING DONE

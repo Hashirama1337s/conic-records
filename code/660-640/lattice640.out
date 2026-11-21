@@ -1,0 +1,27 @@
+N = 640  symmetric: 1
+rank of Gram (columns of HNF): 20
+det S = -288   snf: [72, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+signature: [1, 19]
+all conic coordinates integral: 1
+residual of conic 1: [65]
+h^2 = 4   (expect 4)
+Gram reproduced: 1
+h.v even for all basis v: 1
+dim ker(S mod 2) = 2
+class v/2: x^2 = -801   (S x integral: 1)  even-isotropic (x^2 in 2Z): 0
+class v/2: x^2 = -2   (S x integral: 1)  even-isotropic (x^2 in 2Z): 1
+class v/2: x^2 = -731   (S x integral: 1)  even-isotropic (x^2 in 2Z): 0
+S: vectors (up to sign) with 2B <= 8: 4241
+S: [v^2, |v.h|] -> count (up to sign): [[-4, 0], 3600; [-2, 2], 640; [4, 4], 1]
+S: #{v : v^2 = -2, v.h = 2} = 640
+class 1: not an even integral overlattice -> excluded
+class 2: even overlattice, det -72; h coords integral: 1
+N2: vectors (up to sign) with 2B <= 8: 8280
+N2: [v^2, |v.h|] -> count (up to sign): [[-4, 0], 6984; [-2, 0], 15; [-2, 2], 1280; [4, 4], 1]
+class 3: not an even integral overlattice -> excluded
+dim ker(S mod 3) = 1
+class v/3: x^2 = -356   (S x integral: 1)  even (x^2 in 2Z): 1
+   even overlattice, det -32; h coords integral: 1
+N3: vectors (up to sign) with 2B <= 8: 12231
+N3: [v^2, |v.h|] -> count (up to sign): [[-4, 0], 10422; [-2, 0], 16; [-2, 2], 1792; [4, 4], 1]
+LATTICE_DONE

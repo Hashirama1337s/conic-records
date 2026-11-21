@@ -1,0 +1,82 @@
+// Referee conic counter (independent of build/conic_count.py).
+// Chart: plane x0' = a1 x1' + a2 x2' + a3 x3' in coordinates X = T x', T random dense over GF(p),
+// centre NOT forced onto X (full degree 4). Conic Q1 = x1^2 + b1 x1 x2 + b2 x1 x3 + b3 x2^2 + b4 x2 x3 + b5 x3^2.
+// Condition: remainder of f modulo Q1 (division in x1) vanishes -> 9 equations in 8 unknowns.
+// Count: Singular slimgb + vdim (with multiplicity); distinct: fglm to lex + squarefree degree of the eliminant.
+// Expects variables defined before including: int PR, int SEED, string FSTR (polynomial in x,y,z,w), int DOLEX.
+ring R = PR,(b1,b2,b3,b4,b5,a1,a2,a3,x1,x2,x3,x,y,z,w),dp;
+system("random", SEED);
+matrix T[4][4];
+int i; int j;
+for (i=1;i<=4;i++) { for (j=1;j<=4;j++) { T[i,j] = random(-(PR div 2), PR div 2); } }
+poly F; execute("F = " + FSTR + ";");
+// centre on X: first column of T := a random GF(p)-point of X (random line, linear factor)
+int found = 0; list fl; poly g; poly lf; number r0; int k;
+matrix P0[4][1]; matrix P1[4][1];
+while (found == 0)
+{
+  for (i=1;i<=4;i++) { P0[i,1] = random(-(PR div 2), PR div 2); P1[i,1] = random(-(PR div 2), PR div 2); }
+  g = subst(F, x, P0[1,1]+x1*P1[1,1]); g = subst(g, y, P0[2,1]+x1*P1[2,1]);
+  g = subst(g, z, P0[3,1]+x1*P1[3,1]); g = subst(g, w, P0[4,1]+x1*P1[4,1]);
+  fl = factorize(g);
+  for (k=1;k<=size(fl[1]);k++) { if (deg(fl[1][k]) == 1 and found == 0) { lf = fl[1][k]; found = 1; } }
+}
+r0 = -leadcoef(subst(lf, x1, 0)) / leadcoef(lf);
+for (i=1;i<=4;i++) { T[i,1] = P0[i,1] + r0*P1[i,1]; }
+poly chk = subst(subst(subst(subst(F, x, T[1,1]), y, T[2,1]), z, T[3,1]), w, T[4,1]);
+print("centre on X check F(c) = " + string(chk) + "  det T = " + string(det(T)));
+poly u0 = a1*x1 + a2*x2 + a3*x3;
+ideal sub = T[1,1]*u0+T[1,2]*x1+T[1,3]*x2+T[1,4]*x3,
+            T[2,1]*u0+T[2,2]*x1+T[2,3]*x2+T[2,4]*x3,
+            T[3,1]*u0+T[3,2]*x1+T[3,3]*x2+T[3,4]*x3,
+            T[4,1]*u0+T[4,2]*x1+T[4,3]*x2+T[4,4]*x3;
+map phi = R, b1,b2,b3,b4,b5,a1,a2,a3,x1,x2,x3, sub[1],sub[2],sub[3],sub[4];
+poly f = phi(F);
+poly Q1 = x1^2 + b1*x1*x2 + b2*x1*x3 + b3*x2^2 + b4*x2*x3 + b5*x3^2;
+// divide by Q1 in x1: subtract lead in x1 repeatedly
+matrix cf; int dx; poly lc;
+dx = deg(f, intvec(0,0,0,0,0,0,0,0,1,0,0,0,0,0,0));
+while (dx >= 2)
+{
+  cf = coeffs(f, x1);
+  lc = cf[dx+1,1];
+  f = f - lc*x1^(dx-2)*Q1;
+  dx = deg(f, intvec(0,0,0,0,0,0,0,0,1,0,0,0,0,0,0));
+}
+// coefficients in x1,x2,x3
+matrix C = coef(f, x1*x2*x3);
+ideal I;
+for (i=1;i<=ncols(C);i++) { I = I + C[2,i]; }
+int ngen = size(I);
+ring S = PR,(b1,b2,b3,b4,b5,a1,a2,a3),dp;
+ideal I = imap(R, I);
+print("equations: " + string(size(I)));
+int t0 = timer;
+ideal G = slimgb(I);
+print("dim " + string(dim(G)) + "  vdim(with multiplicity) " + string(vdim(G)) + "  slimgb seconds " + string(timer - t0));
+if (DOLEX == 1)
+{
+  // generic linear change so the last variable separates points, then fglm to lex
+  ring S2 = PR,(b1,b2,b3,b4,b5,a1,a2,a3),lp;
+  ring S1 = PR,(b1,b2,b3,b4,b5,a1,a2,a3),dp;
+  ideal G1 = imap(S, G);
+  poly ell = 0;
+  for (i=1;i<=8;i++) { ell = ell + random(1, PR-1)*var(i); }
+  // substitute a3 -> ell (invertible change since coefficient of a3 is nonzero)
+  number k8 = leadcoef(diff(ell, a3));
+  poly inv = (a3 - (ell - k8*a3)) / k8;   // a3_old in terms of new a3 = ell
+  map chg = S1, b1,b2,b3,b4,b5,a1,a2,inv;
+  option(redSB);
+  ideal G2 = std(chg(G1));
+  print("after change vdim " + string(vdim(G2)));
+  setring S2;
+  ideal L = fglm(S1, G2);
+  poly el = L[1];
+  print("lex eliminant degree " + string(deg(el)));
+  poly sqf = el / gcd(el, diff(el, a3));
+  print("DISTINCT (squarefree degree of eliminant) " + string(deg(sqf)));
+  print("eliminant vars " + string(nvars(S2)) + " L1=" + string(leadmonom(L[1])));
+  print("shape position (lex basis size 8): " + string(size(L)));
+}
+print("REFEREE_DONE");
+quit;

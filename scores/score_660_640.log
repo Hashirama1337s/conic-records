@@ -1,0 +1,20 @@
+== G1
+dim 0  vdim(with multiplicity) 660  slimgb seconds 196
+after change vdim 660
+DISTINCT (squarefree degree of eliminant) 660
+exit 0 wall 268 s
+== G2
+dim 0  vdim(with multiplicity) 660  slimgb seconds 201
+exit 0 wall 202 s
+== G3
+dim 0  vdim(with multiplicity) 640  slimgb seconds 197
+after change vdim 640
+DISTINCT (squarefree degree of eliminant) 640
+exit 0 wall 264 s
+== G4
+dim 0  vdim(with multiplicity) 640  slimgb seconds 192
+exit 0 wall 194 s
+== G5
+dim 0  vdim(with multiplicity) 560  slimgb seconds 183
+exit 0 wall 183 s
+== SCORING DONE

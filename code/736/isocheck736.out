@@ -1,0 +1,2 @@
+PI is a permutation of 1..736: 1
+Gd[PI,PI] == Gc (exact, PARI): 1

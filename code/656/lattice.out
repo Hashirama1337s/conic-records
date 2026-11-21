@@ -1,0 +1,19 @@
+﻿N = 656  symmetric: 1
+rank of Gram (columns of HNF): 20
+det S = -244   snf: [122, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+signature: [1, 19]
+all conic coordinates integral: 1
+h^2 = 4   (expect 4)
+Gram reproduced: 1
+h.v even for all basis v: 1
+dim ker(S mod 2) = 2
+class v/2: x^2 = -3021/2   (S x integral: 1)  even-isotropic (x^2 in 2Z): 0
+class v/2: x^2 = -3   (S x integral: 1)  even-isotropic (x^2 in 2Z): 0
+class v/2: x^2 = -3045/2   (S x integral: 1)  even-isotropic (x^2 in 2Z): 0
+S: vectors (up to sign) with 2B <= 8: 4470
+S: [v^2, |v.h|] -> count (up to sign): [[-4, 0], 3813; [-2, 2], 656; [4, 4], 1]
+S: #{v : v^2 = -2, v.h = 2} = 656
+class 1: not an even integral overlattice -> excluded
+class 2: not an even integral overlattice -> excluded
+class 3: not an even integral overlattice -> excluded
+LATTICE_DONE

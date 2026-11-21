@@ -1,0 +1,18 @@
+conics read: 664  planes read: 332
+(A) all 664 conics: det certified != 0; min |det| >= [0.000652021 +/- 7.33e-11]
+(A) all 332 planes: the two conics certified non-proportional
+(B) certified distinct plane pairs: 54946 of 54946 ( 4814 by different first-nonzero coordinate); min certified sup-norm separation: [0.220528 +/- 1.80e-7]
+  plane 0 elapsed 0.1 s
+  plane 40 elapsed 3.7 s
+  plane 80 elapsed 7.6 s
+  plane 120 elapsed 12.0 s
+  plane 160 elapsed 16.3 s
+  plane 200 elapsed 21.0 s
+  plane 240 elapsed 25.2 s
+  plane 280 elapsed 28.9 s
+  plane 320 elapsed 32.4 s
+(C) entries left undecided by balls (marked -9): 64
+(C) undecided clusters: 32  merged (double-root) clusters: 32  Gram symmetric: True
+(C) min certified |Q_other(point)| deciding membership: [0.0138967 +/- 6.9e-11]
+(C) value counts: [(-9, 64), (-2, 664), (0, 99144), (1, 241216), (2, 99144), (4, 664)]
+wrote gram_ball.gp

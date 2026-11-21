@@ -1,0 +1,28 @@
+// Step 7: singular-member locus of F(e,t) = w^4 + e q w^2 + q^2 + t p4.
+LIB "elim.lib";
+proc satur(ideal I, ideal K)
+{
+  def S = sat(I, K);
+  if (typeof(S) == "list") { ideal R = S[1]; } else { ideal R = S; }
+  return(R);
+}
+// (a) singular values of the octahedral pencil q^2 + s p4 (exact, over Q)
+ring r1 = 0, (x,y,z,s), dp;
+poly q = x2+y2+z2; poly p4 = x4+y4+z4;
+poly A = q^2 + s*p4;
+ideal J1 = A, diff(A,x), diff(A,y), diff(A,z);
+ideal irr = x,y,z;
+ideal J1s = satur(J1, irr);
+ideal E1 = eliminate(J1s, xyz);
+print("pencil q^2+s*p4 singular values:"); print(factorize(E1[1]));
+// (b) full family, eliminate the point (exact, over Q)
+ring r2 = 0, (x,y,z,w,e,t), dp;
+poly q = x2+y2+z2; poly p4 = x4+y4+z4;
+poly F = w4 + e*q*w2 + q^2 + t*p4;
+ideal J = F, diff(F,x), diff(F,y), diff(F,z), diff(F,w);
+ideal irr = x,y,z,w;
+ideal Js = satur(J, irr);
+ideal E = eliminate(Js, xyzw);
+print("family discriminant generators:"); print(E);
+int i; for (i=1; i<=size(E); i++) { print(factorize(E[i])); }
+quit;

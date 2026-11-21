@@ -1,0 +1,4 @@
+NS-form basis Gram: det -192  snf [48, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  signature [1, 19]  h o h = 4
+diag: [-2]   h o c: [2]   Gd == 2 - Gd_N: 1
+Gram value counts: [-2, 736; 0, 122016; 1, 296192; 2, 122016; 4, 736]
+DEGT_DONE

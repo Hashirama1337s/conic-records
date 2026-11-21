@@ -1,0 +1,23 @@
+   realprecision = 539 significant digits (530 digits displayed)
+P8 = x^8 - x^4 + 1 irreducible: 1  nfdisc [2, 16; 3, 4]  #galoisconj 8
+roots of x^4+144 in N: 4
+c = sqrt6(1+i) at root #1: 1
+c in N: -2*th^5 - 2*th   c^4 + 144 == 0: 1
+orbit 1 size 96: recognised, max lindep coefficient 5466
+orbit 2 size 96: recognised, max lindep coefficient 5466
+orbit 3 size 96: recognised, max lindep coefficient 104
+orbit 4 size 96: recognised, max lindep coefficient 104
+orbit 5 size 64: recognised, max lindep coefficient 8
+orbit 6 size 64: recognised, max lindep coefficient 8
+orbit 7 size 96: recognised, max lindep coefficient 4
+orbit 8 size 128: recognised, max lindep coefficient 9
+perturbation null: 122 tries, 0 false positives
+orbit 1: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 2: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 3: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 4: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 5: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 6: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 7: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+orbit 8: F|plane - Qrep*Qres == 0 : 1   n[k+1]==1: 1   det Qrep != 0: 1   det Qres != 0: 1   rank[Qrep,Qres] = 2
+EXACT OK: 8 / 8

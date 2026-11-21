@@ -1,0 +1,9 @@
+isotropic vectors in box 6: 0
+qfsign [2, 2] det 576 issquare(det) 1
+qfsolve(GT) = 3
+matdiagonal-ish: [2, -2, 1, 0; 0, -28, 5/7, 1/7; 0, 0, -12/7, -4; 0, 0, 0, 6]
+p=2  eps(T)=1  eps(split)=-1  ANISOTROPIC
+p=3  eps(T)=-1  eps(split)=1  ANISOTROPIC
+p=5  eps(T)=1  eps(split)=1  isotropic
+p=7  eps(T)=1  eps(split)=1  isotropic
+p=0  eps(T)=-1  eps(split)=-1  isotropic

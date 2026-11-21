@@ -1,0 +1,25 @@
+i, sqrt2, sqrt3 in N fixed by root #1; c == sqrt2*sqrt3*(1+i): 1
+conj: i -> 1 (-i)   sqrt2 fixed 1   sqrt3 fixed 1   involution on th 1
+zeta8^2 == i: 1
+(a) F_c(M v) == -x^4+y^4+z^4+9w^4+6xyzw : 1
+det of the normalised lifts: [-1, 1, -1, 1]  #(det = +1) = 192  (symplectic part: g^* omega = det(g) omega since F(gX) = F(X))
+conics: 736
+final Gram invariant under all 384 permutations: 1   faithful: 1
+orbit sizes on conics, G (384): [64, 64, 96, 96, 96, 96, 96, 128]
+orbit sizes on conics, Sp (192): [64, 64, 64, 64, 96, 96, 96, 96, 96]
+u = conj(c)/c: -th^6   u == -i: 1   u^4 == 1: 1
+h0 maps X_cbar to X_c: F_c(h0 X) == F_cbar(X): 1
+coset elements: 384   involutive (h conj(h) scalar): 40   scalars seen: [1]
+classes of real structures (twisted conjugation by G): 2   sizes [16, 24]   h conj(h): [1, 1]
+rational model's structure h_rat = M conj(M)^-1 = [-th^6, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0; 0, 0, 0, 1]  in coset: 1
+rational model belongs to class 1
+exact sign test: sign(sqrt3 - sqrt2 - 0.3) = 1 (expect +1: 0.0178...),  sign(5*sqrt6 - 7*sqrt2 - 2) = 1 (expect +1)
+class 1 (size 16, h conj(h) = 1, = the rational model -x^4+y^4+z^4+9w^4+6xyzw): sigma-real conics 20;  sigma-real planes 40;  real conics per numerical orbit label [5, 8; 7, 12]
+   h conj(A) == lam*A: 1 (lam = th^6)   det A != 0: 1
+   real model F(A X')/lead: all 5 coefficients real: 1   F(A X')/lead = Mod(1, th^8 - th^4 + 1)*y1^4 + Mod(-6, th^8 - th^4 + 1)*y4*y3*y2*y1 + (Mod(-1, th^8 - th^4 + 1)*y2^4 + (Mod(-1, th^8 - th^4 + 1)*y3^4 + Mod(-9, th^8 - th^4 + 1)*y4^4))
+   real conics with real points: 10 of 20;  leading-minor sign patterns [[1, -1, -1], 2; [1, -1, 1], 6; [1, 1, -1], 2; [1, 1, 1], 10]
+class 2 (size 24, h conj(h) = 1): sigma-real conics 40;  sigma-real planes 40;  real conics per numerical orbit label [5, 16; 7, 8; 8, 16]
+   h conj(A) == lam*A: 1 (lam = 1)   det A != 0: 1
+   real model F(A X')/lead: all 7 coefficients real: 1   F(A X')/lead = y1^4 + (Mod(1/2*th^7 - 1/4*th^5 - 1/4*th^3 - 1/4*th, th^8 - th^4 + 1)*y3^2 + Mod(1/2*th^7 - 1/4*th^5 - 1/4*th^3 - 1/4*th, th^8 - th^4 + 1)*y4^2)*y2*y1 + (Mod(-1/4, th^8 - th^4 + 1)*y2^4 + (1/8*y3^4 + Mod(-3/4, th^8 - th^4 + 1)*y4^2*y3^2 + Mod(1/8, th^8 - th^4 + 1)*y4^4))
+   real conics with real points: 40 of 40;  leading-minor sign patterns [[1, -1, -1], 20; [1, 1, -1], 20]
+REALPIC_DONE

@@ -1,0 +1,5 @@
+structure h1: sigma-real conics 32, with real points 12; sign patterns {(1, 1, -1): 12, (1, 1, 1): 20}; min certified |minor| [0.00065202 +/- 1.08e-9]
+   per orbit (real / with real points): {10: (24, 12), 12: (8, 0)}
+structure h2: sigma-real conics 36, with real points 36; sign patterns {(1, -1, -1): 8, (1, 1, -1): 12, (1, -1, 1): 16}; min certified |minor| [0.026867 +/- 2.15e-7]
+   per orbit (real / with real points): {0: (8, 8), 5: (8, 8), 10: (8, 8), 12: (8, 8), 16: (4, 4)}
+memcap: exit 0, peak 0.01 GB of 2.00 GB cap

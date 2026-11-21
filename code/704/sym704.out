@@ -1,0 +1,18 @@
+Q1 positive definite: 1
+common automorphism group of (2B, (v.h)^2): order 1536
+#generators 5
+|S^*/S| = 208
+SYM_DONE
+                  ^---
+... skipping file 'sym704.gp'
+  ***   Warning: new maximum stack size = 4000002048 (3814.699 Mbytes).
+  *** read: Warning: increasing stack size to 16000000.
+  *** read: Warning: increasing stack size to 32000000.
+  *** mathnf: Warning: increasing stack size to 16000000.
+  *** mathnf: Warning: increasing stack size to 32000000.
+  *** mathnf: Warning: increasing stack size to 64000000.
+  *** mathnf: Warning: increasing stack size to 128000000.
+  *** matinverseimage: Warning: increasing stack size to 16000000.
+  *** _ZM_ker_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_ker_worker: Warning: increasing stack size to 64000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 128000000.

@@ -1,0 +1,12 @@
+== V1 referee counter p 20101 t 6804 E 11907 seed 901 DOLEX 1
+dim 0  vdim(with multiplicity) 704  slimgb seconds 188
+after change vdim 704
+DISTINCT (squarefree degree of eliminant) 704
+exit 0 wall 263 s
+== V2 our counter efam p 20113 E 112 t 2154 seed 902
+wrote runs/lead704_V2_p20113_s902 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind efam p 20113 args ['112', '2154']
+leading terms 792  vdim (with multiplicity) = 704
+== V3 control S generic (E,t)=(2,1) p 20101 seed 903
+wrote runs/lead704_V3_p20101_s903 form rem centre onX eqs 9 vars 8 terms 469 maxdeg 6 kind efam p 20101 args ['2', '1']
+leading terms 792  vdim (with multiplicity) = 512
+== SCORING DONE

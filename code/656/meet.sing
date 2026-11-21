@@ -1,0 +1,20 @@
+// MATH: intersections of NL1, NL_A, NL_B in the (E = e^2, t) plane, exact over Q.
+LIB "elim.lib";
+ring r = 0, (E,t), dp;
+poly N1 = E*(t-1)^2 - 2*(t+2)*(3*t+1)^2;
+poly NA = 73*E^2*t^2+244*E^2*t-216*E*t^3+196*E^2-1896*E*t^2+1296*t^4-3328*E*t+6048*t^3-1568*E+11088*t^2+9408*t+3136;
+poly NB = 21097*E^2*t^4+80104*E^2*t^3-73368*E*t^5+157848*E^2*t^2-486792*E*t^4+63504*t^6+33952*E^2*t-1211264*E*t^3+598752*t^5+1936*E^2-1129920*E*t^2+2120976*t^4-11904*E*t+3256704*t^3-15488*E+1564288*t^2-495616*t+30976;
+poly D = t*(t+1)*(t+2)*(t+3)*(E-2*t-4)*(3*E-4*t-12)*(E-4*t-4);
+"NA factors:"; factorize(NA);
+"NB factors:"; factorize(NB);
+"Res_E(N1,NA):"; factorize(resultant(N1, NA, E));
+"Res_E(N1,NB):"; factorize(resultant(N1, NB, E));
+"Res_E(NA,NB):"; factorize(resultant(NA, NB, E));
+"triple intersection (std of N1,NA,NB):";
+ideal T3 = std(ideal(N1, NA, NB));
+T3;
+"vdim:", vdim(T3);
+"triple minus discriminant (saturated):";
+ideal T3s = std(sat(T3, D));
+T3s; "vdim:", vdim(T3s);
+quit;

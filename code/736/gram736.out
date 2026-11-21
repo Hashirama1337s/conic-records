@@ -1,0 +1,32 @@
+  ***   Warning: new maximum stack size = 4000002048 (3814.699 Mbytes).
+i = th^6 in N: i^2 == -1: 1
+c^4 == -144: 1
+seed conics: 16
+|G| = 384   G[1] identity: 1
+F(gX) == F(X) for all 384 g: 1
+pairwise projectively distinct: 1
+distinct conics (exact dual-quadric keys): 736
+distinct planes (exact): 368
+conics per plane: [2]
+new conics contributed by each seed: [96, 96, 0, 0, 96, 96, 0, 0, 64, 64, 0, 0, 96, 0, 128, 0]
+generator seeds: [1, 2, 5, 6, 9, 10, 13, 15]
+row of seed 1 (conic 1) done, value counts [1, 167, 400, 167, 1]  646 ms
+row of seed 2 (conic 97) done, value counts [1, 167, 400, 167, 1]  1304 ms
+row of seed 5 (conic 193) done, value counts [1, 167, 400, 167, 1]  1944 ms
+row of seed 6 (conic 289) done, value counts [1, 167, 400, 167, 1]  2574 ms
+row of seed 9 (conic 385) done, value counts [1, 171, 392, 171, 1]  3214 ms
+row of seed 10 (conic 449) done, value counts [1, 171, 392, 171, 1]  3852 ms
+row of seed 13 (conic 513) done, value counts [1, 163, 408, 163, 1]  4334 ms
+row of seed 15 (conic 609) done, value counts [1, 159, 414, 159, 1]  4949 ms
+undecided entries: 2
+generator permutations computed (7585 ms)
+  *** select: Warning: increasing stack size to 16000000.
+all permutations composed: 384 (7982 ms)
+spot check of 8 composed permutations against direct computation: OK
+action on conics faithful (384 distinct permutations): 1
+  *** _~: Warning: increasing stack size to 32000000.
+Gram symmetric: 0
+value counts: [-99, 256; -2, 736; 0, 122016; 1, 295936; 2, 122016; 4, 736]
+  *** _!=_: Warning: increasing stack size to 64000000.
+Gram invariant under all 384 permutations: 1
+GRAM_DONE

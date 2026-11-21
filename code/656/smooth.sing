@@ -1,0 +1,29 @@
+// Referee: exact smoothness of X- over K = Q(a), a^3 + a - 6 = 0, and modular checks.
+ring K = (0,a),(x,y,z,w),dp;
+minpoly = a^3 + a - 6;
+number t = (-a^2 + 2*a - 6)/3;
+number E = (2576 + 864*a - 1360*a^2)/361;
+print("cubic(t) = " + string(9*t^3 + 48*t^2 + 125*t + 122));
+print("E - (1688-1140t-1044t^2)/361 = " + string(E - (1688 - 1140*t - 1044*t^2)/361));
+poly q = x^2+y^2+z^2; poly p4 = x^4+y^4+z^4;
+poly F = E*w^4 - E*q*w^2 + q^2 + t*p4;
+int t0 = timer;
+ideal J = std(jacob(F));
+print("char 0 over K: dim of Jacobian ideal (0 = only the origin = smooth) " + string(dim(J)) + "  seconds " + string(timer-t0));
+ideal JF = std(J + F);
+print("dim(J + F) = " + string(dim(JF)));
+ring P1 = 20021,(x,y,z,w),dp;
+poly q = x^2+y^2+z^2; poly p4 = x^4+y^4+z^4;
+poly F = 17653*w^4 - 17653*q*w^2 + q^2 + 4116*p4;
+print("p=20021 t=4116: dim jac " + string(dim(std(jacob(F)))));
+ring P2 = 20029,(x,y,z,w),dp;
+poly q = x^2+y^2+z^2; poly p4 = x^4+y^4+z^4;
+poly F = 6668*w^4 - 6668*q*w^2 + q^2 + 12081*p4;
+print("p=20029 t=12081: dim jac " + string(dim(std(jacob(F)))));
+// positive control: a member on the discriminant must be singular, (e,t) = (3, 5/2) has e^2 = 2t+4
+ring P3 = 0,(x,y,z,w),dp;
+poly q = x^2+y^2+z^2; poly p4 = x^4+y^4+z^4;
+poly F = w^4 + 3*q*w^2 + q^2 + 5/2*p4;
+ideal J3 = std(jacob(F));
+print("control (3,5/2) singular expected: dim jac " + string(dim(J3)));
+quit;

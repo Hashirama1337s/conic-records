@@ -1,0 +1,13 @@
+LIB "elim.lib";
+ring r=0,(x,y,z,w,u,s),dp;
+poly q=x2+y2+z2; poly p4=x4+y4+z4;
+poly f = u*(w4+q*w2) + s*q^2 + p4;
+ideal j = diff(f,x), diff(f,y), diff(f,z), diff(f,w);
+// affine charts w=1 and x=1 cover all singular points up to the symmetry (a point with w=0 has some coordinate nonzero, permute to x)
+ideal j1 = subst(j, w, 1);
+ideal e1 = eliminate(j1, x*y*z);
+print("chart w=1:"); print(factorize(e1[1]));
+ideal j2 = subst(j, x, 1);
+ideal e2 = eliminate(j2, y*z*w);
+print("chart x=1:"); print(factorize(e2[1]));
+quit;
