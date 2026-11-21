@@ -2,7 +2,7 @@
 
 **Explicit equations, with exact conic counts, for record quartic surfaces with 656, 664, 704, 736, 660 and 640 conics, and a conic map of Goursat's family**
 
-Moki & Julio (AI-assisted) · 2026 · version 1.0 · release candidate (no DOI yet)
+Moki & Julio (AI-assisted) · 2026 · version 1.0 · DOI [10.5281/zenodo.24413371](https://doi.org/10.5281/zenodo.24413371)
 
 > In 1994 Barth and Bauer proved that quartic surfaces with 16 disjoint conics exist, and wrote that they did not find their equations. Thirty years later Degtyarev picked out the record members by lattice data alone. Here are equations for six record surfaces, two of them Barth-Bauer quartics.
 
@@ -106,7 +106,7 @@ Degtyarev (the lattices, configurations, bounds and tables we decoded); Barth an
 
 ## Cite
 
-Moki & Julio (AI-assisted), "Conic records: explicit equations for record quartic surfaces with 656, 664, 704, 736, 660 and 640 conics", version 1.0, 2026. See [CITATION.cff](CITATION.cff). Please also cite Degtyarev, "Conics on smooth quartic surfaces" (arXiv 2407.00493), for the configurations and bounds.
+Moki & Julio (AI-assisted), "Conic records: explicit equations for record quartic surfaces with 656, 664, 704, 736, 660 and 640 conics", version 1.0, 2026, DOI 10.5281/zenodo.24413371. See [CITATION.cff](CITATION.cff). Please also cite Degtyarev, "Conics on smooth quartic surfaces" (arXiv 2407.00493), for the configurations and bounds.
 
 ## Licence
 
