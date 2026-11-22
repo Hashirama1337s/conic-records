@@ -20,6 +20,9 @@ Every file in this package: what it is for, where it came from in the working fo
 | `PATCHES.md` | every change made to a copied file | new | new |
 | `README.md` | front page | new | new |
 | `TECHNICAL.md` | the previous front page, kept word for word (technical detail) | new | new |
+| `brand/doi.svg` | badge image | `new` | new |
+| `brand/lab.svg` | badge image | `new` | new |
+| `brand/licence.svg` | badge image | `new` | new |
 | `bars/AMENDMENT-656-COUNTa.md` | sealed bar (byte-identical to the sealed file) | `AMENDMENT-656-COUNTa.md` | no |
 | `bars/BAR-656-COUNT.md` | sealed bar (byte-identical to the sealed file) | `BAR-656-COUNT.md` | no |
 | `bars/BAR-656-POINT.md` | sealed bar (byte-identical to the sealed file) | `BAR-656-POINT.md` | yes |

@@ -2,7 +2,9 @@
 
 **Degtyarev proved these record surfaces exist from lattice data alone, without equations; we wrote down equations for six of them and proved their exact conic counts, among them a surface whose 656 conics are all real, the most known on any real quartic.**
 
-Moki & Julio · 2026 · version 1.0 · DOI [10.5281/zenodo.24413371](https://doi.org/10.5281/zenodo.24413371)
+[![DOI 10.5281/zenodo.24413371](brand/doi.svg)](https://doi.org/10.5281/zenodo.24413371) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
+
+Moki & Julio · 2026 · version 1.0
 
 **Read** [PAPER.md](PAPER.md) · **Re-run** [code/README.md](code/README.md) · **Check** [CORRECTIONS.md](CORRECTIONS.md) and the sealed files in [bars/](bars/)
 
